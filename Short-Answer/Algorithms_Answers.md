@@ -2,11 +2,11 @@
 
 ## Exercise I
 
-a) For this problem, it looks like this would be polynomial scaling O(n^2). As "n" becomes larger, the operation scales quickly per number of elements. Comparing the output graph to the complexity chart, the graph is more in-line with O(n^2); the line does grow quickly, but not as quick as O(2^n).
+a) For this problem, it looks like this would be linear scaling O(n). For the while loop, this would continue running as long as the condition of `a` being less than `n * n * n` is True. With each iteration, `n^2` is being added to `a`. Which each iteration, this would turn into `n^3/n^2`, resulting in it just being `n` --> increasing at the same rate with each iteration.
 
 b) For this problem, it looks like this would be logarithmic scaling O(log n). The operations do scale as more elements are added, however; it scales by 1 operation, stays there for a few elements, and then increases.
 
-c) For this problem, it looks like this would be linearithmic scaling O(n log n). For each iteration of this function, increases the operations by 2 while the number of elements increases by 1.
+c) For this problem, it looks like this would be linear scaling O(n). For each iteration of this function, increases the operations by 2 while the number of elements increases by 1. To be linear scaling, the function needs to grow at the same rate, which is what this achieves.
 
 ## Exercise II
 
